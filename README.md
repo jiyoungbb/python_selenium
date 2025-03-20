@@ -5,5 +5,4 @@
 
 ## 📌 주요 기능  
 ✅ Chrome을 이용한 웹 자동화  
-✅ Selenium 기본 동작 테스트
 ✅ Mac 환경에서 Selenium 설정 및 실행 방법 
