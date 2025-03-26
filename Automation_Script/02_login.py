@@ -23,7 +23,7 @@ id_input.send_keys('jiiyoung0906')  # 여기에 네이버 아이디 입력
 
 # 비밀번호 입력 필드 찾기
 password_input = driver.find_element(By.ID, 'pw')
-password_input.send_keys('pd4991jq!')  # 여기에 네이버 비밀번호 입력
+password_input.send_keys('password')  # 여기에 네이버 비밀번호 입력
 
 # 로그인 버튼 클릭
 login_button = driver.find_element(By.ID, 'log.login')
