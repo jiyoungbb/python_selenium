@@ -10,7 +10,7 @@ options.add_argument("--start-maximized")  # 최대화된 창으로 시작 (선�
 service = Service("/Users/jiyoung/.cache/selenium/chromedriver/mac-arm64/134.0.6998.90/chromedriver")  # 경로 수정
 
 # Chrome WebDriver 실행
-driver = webdriver.Chrome(service=service, options=options)
+driver = webdriver.Chrome(options=options)
 
 # 크롬 브라우저 열기
 driver.get("https://www.google.com")
